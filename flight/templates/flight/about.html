@@ -1,0 +1,25 @@
+{% extends 'flight/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Şertler | Dashoguz Airlines</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/about.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+        <img src="{% static 'img/about-us.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <h1>Barjak ýeriňizde arkaýyn ýaşap bilersiňiz, syýahatyňyzyň rahatlygyna biz jogap berýäris.</h1>
+            <p>90-njy ýyllarda bilet bronlamak howa menziline gitmegi we nobatyňyza garaşýan uzyn howa menzilinde durmagy aňladýardy. Soň internet geldi, hemme zat üýtgedi. Adamlar biletlerini onlaýn ýagdaýda bron edip başladylar. Dowam edýän çäklendirmelere garamazdan syýahat öňkülerinden has amatly boldy. 2018-nji ýylda türkmen syýahatçylary tarapyndan takmynan 200 müň syýahat edildi.</p>
+            <p>Syýahatçylar, adatça, syýahatyna degişli maglumatlary tapmak üçin köp işlemeli bolýarlar. Syýahat gaty maglumata baý, ýöne maglumatlar dürli gyzyklanýan taraplarda ýaşaýar we köplenç syýahatça wagtynda ýetip bilmeýär - şeýlelik bilen lapykeçlige, gahar-gazaba we ýakymsyzlyga sebäp bolýar.</p>
+            <p>Bu gün syýahatymyzyň nähili boljakdygyny - öýden haýsy wagt gitjekdigimizi, haýsy wagtda barmalydygymyzy we bu syýahaty amala aşyranymyzda nähili rahat boljakdygymyzy anyk bilmezden bron edýäris. Syýahat güni henizem taksi gözleýäris, ulag bilen ýüzbe-ýüz bolanymyzda tolgunýarys we wagtynda barmak üçin internete girýäris.</p>
+            <p>Has gowy ýol bolmalydygyny duýduk. Şeýlelik bilen, “Dashoguz Airlines”-i gurduk - syýahat tejribäňizi synlaýan we gerekli wagtda dogry maglumatlary size ýetirýän şahsy syýahat kömekçiňiz.</p>
+            <p>Biziň maksadymyz, her gezek ajaýyp syýahat etmegiňize kömek etmekdir. Biz muňa çemeleşýäris.</p>
+        </div>
+    </section>
+{% endblock%}

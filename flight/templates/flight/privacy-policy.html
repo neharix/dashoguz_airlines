@@ -1,0 +1,24 @@
+{% extends 'flight/layout.html' %}
+
+{% load static %}
+
+{% block head %}
+    <title>Gizlinlik syýasaty | Dashoguz Airlines</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/privacy-policy.css' %}">
+{% endblock head %}
+
+{% block body %}
+    <section class="privacybanner-section">
+            <img src="{% static 'img/privacy-policy.png' %}" alt="Privacy Policy" class="privacybannerimg">
+    </section>
+    <section class="section section1">
+        <div class="container">
+            <p>
+                Dashoguz Airlines müşderiniň şahsy durmuşyň aladalaryna düşünýär we biziň bilen paýlaşylýan şahsy maglumatlary goramak we goldamak boýunça birnäçe çäreleri görýär.
+            </p>
+            <p>
+                Bu Gizlinlik Syýaýasatynyň ulanylyşy, Daşoguz Howaýollary tarapyndan hödürlenýän önümlerini ýa-da hyzmatlaryny soraýan ýa-da web sahypasy, ykjam saýty ýaly islendik onlaýn kanal arkaly satyn alýan ýa-da satyn alýan serişdä degişlidir. Bu Gizlinlik Syýaýasaty web sahypasy, web sahypasy, ykjam saýt(lar) we ykjam programma(lar) diýmekdir. Web sahypasyny ýa-da beýleki satuw kanallaryny ulanmak ýa-da olara girmek bilen, Ulanyjy şu Gizlinlik Syýaýasatynyň şertleri we şu ýerdäki mazmun bilen razylaşýar.
+            </p>
+        </div>
+    </section>
+{% endblock%}
